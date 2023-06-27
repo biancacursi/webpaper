@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS-->
+    <link href="styleadm.css" rel="stylesheet">
+
+    <!--BoxIcons-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>WebPaper</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="favicon.png" alt="">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">WebPaper</span>
+                    <span class="adm">Administrador</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="search" placeholder="Procurar">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="indexadm.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="nav nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="inserirProduto.html">
+                            <i class='bx bxl-product-hunt icon'></i>
+                            <span class="nav nav-text">Produto</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="cupom.html">
+                            <i class='bx bx-credit-card-front icon'></i>
+                            <span class="nav nav-text">Cupom</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="instituicao.html">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="nav nav-text">Instituição</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-log-out icon' ></i>
+                            <span class="nav nav-text">Sair</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="text">Instituição</div>
+    <form>
+        <div class="contact-form">
+            <div class="row">
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Nome"
+              />
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Telefone"
+              />
+            </div>
+
+            <div class="row">
+              <input type="email" class="contact-input" placeholder="E-mail" />
+              <input type="text" class="contact-input" placeholder="Logadouro" />
+              <input type="number" class="contact-input" placeholder="Nº" />
+            </div>
+
+            <div class="row">
+                <input type="text" class="contact-input" placeholder="Complemento" />
+                <input type="text" class="contact-input" placeholder="Bairro" />
+                <input type="text" class="contact-input" placeholder="Cidade" />
+              </div>
+            
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Estado" />
+                <input type="text" class="contact-input" placeholder="CEP" />
+                
+              </div>
+            
+            <input type="submit" value="Enviar" class="button">
+          </div>
+        </div>
+      </div>
+    </form>
+</section>
+</section>
+
+    
+   <!-- <script src="script.js"></script>-->
+</body>
+</html>
